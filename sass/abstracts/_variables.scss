@@ -1,0 +1,33 @@
+// COLOR
+
+$color-primary: #2f302f;
+
+$color-white: #FFF;
+
+$color-black: #000;
+
+//FONT
+
+$default-font-size: 1.6rem;
+
+/// GRID
+
+$grid-width: 114rem;
+$gutter-vertical: 8rem;
+$gutter-horizontal: 6rem;
+
+$grid-vertical-gutter: 0;
+$grid-horizontal-gutter: 0;
+
+
+// CUSTOM FONT
+
+@font-face {
+    font-family: "CoolveticaBold";
+    src: url(../css/font/coolvetica-rg.ttf);
+}
+
+@font-face {
+    font-family: "Coolvetica";
+    src: url(../css/font/coolvetica-condensed-rg.ttf);
+}

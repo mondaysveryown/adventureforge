@@ -1,0 +1,13 @@
+.header {
+    height: 40vh;
+    background-color: $color-white;
+    position: relative;
+
+    &__logo-box {
+        display: inline-block;
+    }
+
+    &__logo {
+        height: 20rem;
+    }
+}
