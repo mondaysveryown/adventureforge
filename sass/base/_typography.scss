@@ -2,5 +2,23 @@ body {
     color: $color-primary;
     padding: 13rem;
     font-family: "Coolvetica";
-    letter-spacing: .3rem;
+}
+
+.content-welcome {
+    text-align: center;
+
+    &--title {
+        font-family: "CoolveticaBold";
+        text-transform: uppercase;
+        font-size: 6.3rem;
+        letter-spacing: .7rem;
+        margin-bottom: 4rem;
+    }
+
+    &--paragraph {
+        font-size: 2.3rem;
+        letter-spacing: 2px;
+        height: 10rem;
+        width: 40%;
+    }
 }
