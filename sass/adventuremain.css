@@ -32,11 +32,17 @@ body {
   font-family: "Coolvetica";
 }
 
-.content-welcome {
+.adventure {
+  text-transform: uppercase;
+  color: #098ae0;
+}
+
+.content {
+  float: left;
   text-align: center;
 }
 
-.content-welcome--title {
+.content--title {
   font-family: "CoolveticaBold";
   text-transform: uppercase;
   font-size: 6.3rem;
@@ -44,11 +50,16 @@ body {
   margin-bottom: 4rem;
 }
 
-.content-welcome--paragraph {
-  font-size: 2.3rem;
+.content--paragraph {
+  margin: 1rem;
+  margin-bottom: 7rem;
+  font-size: 2.5rem;
   letter-spacing: 2px;
   height: 10rem;
-  width: 40%;
+  width: 50%;
+  -webkit-transform: translateX(46%);
+          transform: translateX(46%);
+  line-height: 3.5rem;
 }
 
 .u-center-text {
@@ -130,9 +141,10 @@ body {
 }
 
 .header {
-  height: 40vh;
+  height: 20vh;
   background-color: #FFF;
   position: relative;
+  margin-bottom: 16rem;
 }
 
 .header__logo-box {
@@ -173,7 +185,7 @@ body {
 }
 
 .navigation__link:hover, .navigation__link:active {
-  font-size: 2.5rem;
   font-weight: 900;
+  color: #e86c00;
 }
 /*# sourceMappingURL=adventuremain.css.map */
