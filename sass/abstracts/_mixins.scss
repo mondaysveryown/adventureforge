@@ -13,3 +13,21 @@
 	    zoom: 1;
     }
 }
+
+@mixin content-t {
+    font-family: "CoolveticaBold";
+    text-transform: uppercase;
+    font-size: 6.3rem;
+    letter-spacing: .7rem;
+    margin-bottom: 4rem;
+}
+
+@mixin content-p {
+    margin: 1rem;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    height: 10rem;
+    width: 50%;
+    transform: translateX(46%);
+    line-height: 3.5rem;
+}

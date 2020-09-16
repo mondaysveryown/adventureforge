@@ -29,7 +29,7 @@ body {
 body {
   color: #2f302f;
   padding: 13rem;
-  font-family: "Coolvetica";
+  font-family: "Coolvetica", sans-serif;
 }
 
 .adventure {
@@ -37,9 +37,14 @@ body {
   color: #098ae0;
 }
 
+.overlap {
+  color: #FFF;
+}
+
 .content {
   float: left;
   text-align: center;
+  margin-bottom: 27rem;
 }
 
 .content--title {
@@ -52,7 +57,31 @@ body {
 
 .content--paragraph {
   margin: 1rem;
-  margin-bottom: 7rem;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  height: 10rem;
+  width: 50%;
+  -webkit-transform: translateX(46%);
+          transform: translateX(46%);
+  line-height: 3.5rem;
+}
+
+.section-gallery__content {
+  text-align: center;
+}
+
+.section-gallery__content--title {
+  font-family: "CoolveticaBold";
+  text-transform: uppercase;
+  font-size: 6.3rem;
+  letter-spacing: .7rem;
+  margin-bottom: 4rem;
+  color: #e86c00;
+  bottom: 0px;
+}
+
+.section-gallery__content--paragraph {
+  margin: 1rem;
   font-size: 2.5rem;
   letter-spacing: 2px;
   height: 10rem;
@@ -187,5 +216,19 @@ body {
 .navigation__link:hover, .navigation__link:active {
   font-weight: 900;
   color: #e86c00;
+}
+
+.section-gallery {
+  float: left;
+}
+
+.section-gallery__header-box {
+  height: 15rem;
+  width: 100%;
+}
+
+.section-gallery__header-img {
+  height: auto;
+  width: 100%;
 }
 /*# sourceMappingURL=adventuremain.css.map */

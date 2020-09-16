@@ -1,0 +1,14 @@
+.section-gallery {
+    // padding: 25rem 0;
+    float: left;
+
+    &__header-box {
+        height: 15rem; 
+        width: 100%;
+    }
+
+    &__header-img {
+        height: auto; // could also use max width and mad height for img resizing, 
+        width: 100%; // and display block
+    }
+}
