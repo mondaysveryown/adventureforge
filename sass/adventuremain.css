@@ -8,6 +8,11 @@
   src: url(../css/font/coolvetica-condensed-rg.ttf);
 }
 
+@font-face {
+  font-family: "Bebas Neue";
+  src: url(../css/font/Bebas-Neue-Regular.tff);
+}
+
 *,
 *::after,
 *::before {
@@ -29,7 +34,7 @@ body {
 body {
   color: #2f302f;
   padding: 13rem;
-  font-family: "Coolvetica", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
 }
 
 .adventure {
@@ -48,22 +53,22 @@ body {
 }
 
 .content--title {
-  font-family: "CoolveticaBold";
+  font-family: "Bebas Neue";
   text-transform: uppercase;
-  font-size: 6.3rem;
-  letter-spacing: .7rem;
+  font-size: 5.4rem;
+  letter-spacing: .6rem;
   margin-bottom: 4rem;
 }
 
 .content--paragraph {
   margin: 1rem;
-  font-size: 2.5rem;
-  letter-spacing: 2px;
+  font-size: 1.9rem;
+  letter-spacing: 1.5px;
   height: 10rem;
   width: 50%;
   -webkit-transform: translateX(46%);
           transform: translateX(46%);
-  line-height: 3.5rem;
+  line-height: 3.2rem;
 }
 
 .section-gallery__content {
@@ -71,10 +76,10 @@ body {
 }
 
 .section-gallery__content--title {
-  font-family: "CoolveticaBold";
+  font-family: "Bebas Neue";
   text-transform: uppercase;
-  font-size: 6.3rem;
-  letter-spacing: .7rem;
+  font-size: 5.4rem;
+  letter-spacing: .6rem;
   margin-bottom: 4rem;
   color: #e86c00;
   bottom: 0px;
@@ -82,13 +87,13 @@ body {
 
 .section-gallery__content--paragraph {
   margin: 1rem;
-  font-size: 2.5rem;
-  letter-spacing: 2px;
+  font-size: 1.9rem;
+  letter-spacing: 1.5px;
   height: 10rem;
   width: 50%;
   -webkit-transform: translateX(46%);
           transform: translateX(46%);
-  line-height: 3.5rem;
+  line-height: 3.2rem;
 }
 
 .u-center-text {
@@ -186,6 +191,7 @@ body {
 
 .navigation {
   float: left;
+  font-family: "Coolvetica";
 }
 
 .navigation__nav {
@@ -202,7 +208,7 @@ body {
 
 .navigation__item {
   margin: .8rem;
-  display: inline;
+  display: inline-block;
   padding: 0 .4rem;
 }
 
@@ -223,8 +229,9 @@ body {
 }
 
 .section-gallery__header-box {
-  height: 15rem;
+  height: 10rem;
   width: 100%;
+  margin-bottom: 59rem;
 }
 
 .section-gallery__header-img {

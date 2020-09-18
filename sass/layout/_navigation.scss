@@ -1,5 +1,6 @@
 .navigation {
     float: left;
+    font-family: "Coolvetica";
 
     &__nav {
         width: 100%;
@@ -16,7 +17,7 @@
 
     &__item {
         margin: .8rem;
-        display: inline;
+        display: inline-block;
         padding: 0 .4rem;
     }
 

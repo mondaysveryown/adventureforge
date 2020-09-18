@@ -1,18 +1,18 @@
 body {
     color: $color-primary;
     padding: 13rem;
-    font-family: "Coolvetica", sans-serif;
+    font-family: "Bebas Neue", sans-serif;
 }
 
 // SPAN 
 
-.adventure {
+.adventure { // for branding purposes and introducing a third color for website palette 
     text-transform: uppercase;
     color: $color-secondary;
 }
 
-.overlap {
-    color: $color-white;
+.overlap { // need to fix later for when dimensions responsive website
+    color: $color-white; // for text on top of space space
 }
 
 // WELCOME SECTION
@@ -22,7 +22,7 @@ body {
     margin-bottom: 27rem;
 
     &--title {
-        @include content-t;
+        @include content-t; //styling of different content sections
     }
 
     &--paragraph {

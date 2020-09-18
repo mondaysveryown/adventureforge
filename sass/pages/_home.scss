@@ -3,8 +3,9 @@
     float: left;
 
     &__header-box {
-        height: 15rem; 
+        height: 10rem; 
         width: 100%;
+        margin-bottom: 59rem; // to push section gallery header down tos tart next section
     }
 
     &__header-img {
